@@ -1,7 +1,7 @@
 # CoCreate
 # 🌆 CiviVision – AI for Society
 
-**Live Demo:** [hackx-shebuilds-nagarujjwal.vercel.app](https://hackx-shebuilds-nagarujjwal.vercel.app)  
+**Live Demo:** [https://civi-vision.vercel.app/](https://civi-vision.vercel.app/)  
 
 ---
 
