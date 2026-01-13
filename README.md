@@ -73,7 +73,7 @@ Project Name: CiviVision
 Institution: U.V. Patel College of Engineering
 
 | Name               | Role   |
-----------------------------------
+|------------------|----------------|
 | **Lahar Solanki**  | Team Leader |
 | **Muskan Isarani** | Team Member |
 | **Prince Modh**  | Team Member |
