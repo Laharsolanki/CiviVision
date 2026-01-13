@@ -68,9 +68,9 @@ Citizens often remain unaware of the status of their complaints.
 - Cloud-native backend for better performance
 
 ### 👥 Team Details
-Team: CoCreate
-Project Name: CiviVision 
-Institution: U.V. Patel College of Engineering
+- Team: CoCreate
+- Project Name: CiviVision 
+- Institution: U.V. Patel College of Engineering
 
 | Name               | Role   |
 |------------------|----------------|
