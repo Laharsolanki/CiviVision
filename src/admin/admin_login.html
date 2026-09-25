@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,6 +12,7 @@
       font-family: 'Poppins', sans-serif;
       color: #3a2d20;
     }
+
     .auth-card {
       background-color: #c39a6b;
       color: #fff;
@@ -20,20 +22,25 @@
       max-width: 420px;
       margin: 80px auto;
     }
+
     h3 {
       font-weight: 700;
       text-align: center;
       margin-bottom: 25px;
     }
+
     label {
       color: #f3e6d2;
       font-weight: 500;
     }
-    .form-control, .form-select {
+
+    .form-control,
+    .form-select {
       border-radius: 15px;
       border: none;
       padding: 10px 14px;
     }
+
     .btn-main {
       background-color: #a36b43;
       color: #fff;
@@ -44,15 +51,18 @@
       font-weight: 600;
       transition: 0.3s;
     }
+
     .btn-main:hover {
       background-color: #8d5e39;
     }
+
     .toggle-link {
       color: #fff;
       font-weight: 500;
       text-decoration: underline;
       cursor: pointer;
     }
+
     footer {
       text-align: center;
       color: #6b5744;
@@ -61,6 +71,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- LOGIN FORM -->
@@ -90,7 +101,8 @@
         <input type="password" id="adminPassword" class="form-control" placeholder="Enter password" required>
       </div>
 
-      <button type="submit" class="btn-main"><a href="admin_dashboard.html"  style="text-decoration: none; color: white;">Login</a></button>
+      <button type="submit" class="btn-main"><a href="admin_dashboard.html"
+          style="text-decoration: none; color: white;">Login</a></button>
 
       <div class="text-center mt-3">
         <span class="toggle-link" onclick="showRegister()">New Member? Register</span>
@@ -114,7 +126,8 @@
 
       <div class="mb-3">
         <label>Mobile Number</label>
-        <input type="tel" id="regMobile" class="form-control" placeholder="10-digit number" pattern="[0-9]{10}" required>
+        <input type="tel" id="regMobile" class="form-control" placeholder="10-digit number" pattern="[0-9]{10}"
+          required>
       </div>
 
       <div class="mb-3">
@@ -122,7 +135,8 @@
         <input type="password" id="regPassword" class="form-control" placeholder="Create password" required>
       </div>
 
-      <button type="submit" class="btn-main"><a href="admin_dashboard.html" style="text-decoration: none; color: white;">Register</a></button>
+      <button type="submit" class="btn-main"><a href="admin_dashboard.html"
+          style="text-decoration: none; color: white;">Register</a></button>
 
       <div class="text-center mt-3">
         <span class="toggle-link" onclick="showLogin()">Back to Login</span>
@@ -130,7 +144,7 @@
     </form>
   </div>
 
-  <footer>© CiviVision | Team CoCreate | U.V. Patel College of Engineering</footer>
+  <!-- <footer>© CiviVision | Team CoCreate | U.V. Patel College of Engineering</footer> -->
 
   <script>
     function toggleLoginField() {
@@ -204,4 +218,5 @@
     }
   </script>
 </body>
+
 </html>

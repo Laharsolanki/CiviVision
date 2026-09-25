@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,6 +64,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <div class="topbar">
@@ -135,14 +137,15 @@
     </div>
 
     <div class="text-center mt-4">
-      <button class="btn-logout" onclick="logout()"><a href="admin_login.html" style="text-decoration: none; color: white;">Logout</a></button>
+      <button class="btn-logout" onclick="logout()"><a href="admin_login.html"
+          style="text-decoration: none; color: white;">Logout</a></button>
     </div>
 
   </div>
 
-  <footer>
+  <!-- <footer>
     © CiviVision | Team CoCreate | U.V. Patel College of Engineering
-  </footer>
+  </footer> -->
 
   <!-- Google Maps API -->
   <script>
@@ -201,8 +204,8 @@
               issue.status === "Resolved"
                 ? "http://maps.google.com/mapfiles/ms/icons/green-dot.png"
                 : issue.status === "In Progress"
-                ? "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-                : "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"
+                  ? "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+                  : "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"
           }
         });
 
@@ -218,6 +221,8 @@
   </script>
 
   <!-- Replace YOUR_API_KEY with your actual Google Maps API Key -->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDl3yhByebUuTUwsWwznypXjr6c_fEGu3w&callback=initMap"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDl3yhByebUuTUwsWwznypXjr6c_fEGu3w&callback=initMap"></script>
 </body>
+
 </html>
